@@ -15,15 +15,15 @@ public class NavigatetoCart {
 		NavAction.EtsyHomepage();
 	}
 			
-			@Then("^User clicks on cart button$")
+	@Then("^User clicks on cart button$")
 	public void user_clicks_on_cart_button()throws Exception{ 
-	NavAction.NavigatetoCart();
+		NavAction.NavigatetoCart();
 	}
 	
-			@Then("^User navigate to shopping cart page$")
+	@Then("^User navigate to shopping cart page$")
 	public void user_navigate_to_shopping_cart_page() {
-				System.out.println("Test Complete");
-			}
+		System.out.println("Test Complete");
+	}
 
 
 }
