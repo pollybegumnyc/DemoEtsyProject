@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.117 s <<< FAILURE! - in TestSuite
+feature(etsy.runner.RunnerClass)  Time elapsed: 19.219 s  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span id="catnav-primary-link-10855" class="text-gray-darker" role="menuitem" aria-haspopup="true" tabindex="0">...</span> is not clickable at point (171, 84). Other element would receive the click: <div class="overlay-region" data-toolkit-overlay="" id="join-neu-overlay" role="dialog" aria-labelledby="join-neu-overlay-title" aria-hidden="false">...</div>
+  (Session info: chrome=80.0.3987.132)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-3P56TJA', ip: '192.168.2.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\rlina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64004}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ac72437ee312dfce92d86718c6c93bdb
+Caused by: org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span id="catnav-primary-link-10855" class="text-gray-darker" role="menuitem" aria-haspopup="true" tabindex="0">...</span> is not clickable at point (171, 84). Other element would receive the click: <div class="overlay-region" data-toolkit-overlay="" id="join-neu-overlay" role="dialog" aria-labelledby="join-neu-overlay-title" aria-hidden="false">...</div>
+  (Session info: chrome=80.0.3987.132)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-3P56TJA', ip: '192.168.2.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\rlina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64004}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ac72437ee312dfce92d86718c6c93bdb
+
