@@ -13,11 +13,15 @@ formatter.feature({
     {
       "line": 1,
       "name": "@regression"
+    },
+    {
+      "line": 1,
+      "name": "@lina"
     }
   ]
 });
 formatter.before({
-  "duration": 6177007300,
+  "duration": 3795339381,
   "status": "passed"
 });
 formatter.scenario({
@@ -52,32 +56,32 @@ formatter.match({
   "location": "EtsyLoginSteps.user_browse_to_etsy_web_application()"
 });
 formatter.result({
-  "duration": 9199922400,
+  "duration": 3402083174,
   "status": "passed"
 });
 formatter.match({
   "location": "EtsyJewlryandAccessories.user_lands_on_etsy_homepage()"
 });
 formatter.result({
-  "duration": 3878010700,
+  "duration": 1623867938,
   "status": "passed"
 });
 formatter.match({
   "location": "ClothingAndShoesSteps.user_mouse_over_on_clothing_and_shoes_tab_across_the_top_of_the_homepage()"
 });
 formatter.result({
-  "duration": 7351343100,
+  "duration": 4816295478,
   "status": "passed"
 });
 formatter.match({
   "location": "ClothingAndShoesSteps.displayed_all_clothing_and_shoes()"
 });
 formatter.result({
-  "duration": 154900,
+  "duration": 82594,
   "status": "passed"
 });
 formatter.after({
-  "duration": 936642300,
+  "duration": 162305356,
   "status": "passed"
 });
 formatter.uri("LinaHomeAndLiving.feature");
@@ -95,11 +99,15 @@ formatter.feature({
     {
       "line": 1,
       "name": "@regression"
+    },
+    {
+      "line": 1,
+      "name": "@lina"
     }
   ]
 });
 formatter.before({
-  "duration": 5189724200,
+  "duration": 1224330522,
   "status": "passed"
 });
 formatter.scenario({
@@ -134,32 +142,32 @@ formatter.match({
   "location": "EtsyLoginSteps.user_browse_to_etsy_web_application()"
 });
 formatter.result({
-  "duration": 8570563100,
+  "duration": 2915843559,
   "status": "passed"
 });
 formatter.match({
   "location": "EtsyJewlryandAccessories.user_lands_on_etsy_homepage()"
 });
 formatter.result({
-  "duration": 4397044900,
+  "duration": 1779028859,
   "status": "passed"
 });
 formatter.match({
   "location": "HomeAndLivingSteps.user_mouse_over_on_home_and_living_tab_across_the_top_of_the_homepage()"
 });
 formatter.result({
-  "duration": 6222065500,
+  "duration": 5145586995,
   "status": "passed"
 });
 formatter.match({
   "location": "HomeAndLivingSteps.displayed_all_home_and_living()"
 });
 formatter.result({
-  "duration": 180500,
+  "duration": 93762,
   "status": "passed"
 });
 formatter.after({
-  "duration": 751509600,
+  "duration": 144080319,
   "status": "passed"
 });
 formatter.uri("LinaPartySupplies.feature");
@@ -177,11 +185,15 @@ formatter.feature({
     {
       "line": 1,
       "name": "@regression"
+    },
+    {
+      "line": 1,
+      "name": "@lina"
     }
   ]
 });
 formatter.before({
-  "duration": 5080185500,
+  "duration": 1223552305,
   "status": "passed"
 });
 formatter.scenario({
@@ -216,32 +228,32 @@ formatter.match({
   "location": "EtsyLoginSteps.user_browse_to_etsy_web_application()"
 });
 formatter.result({
-  "duration": 8806241400,
+  "duration": 3087529809,
   "status": "passed"
 });
 formatter.match({
   "location": "EtsyJewlryandAccessories.user_lands_on_etsy_homepage()"
 });
 formatter.result({
-  "duration": 2805492200,
+  "duration": 1669492430,
   "status": "passed"
 });
 formatter.match({
   "location": "PartySuppliesSteps.user_click_on_party_supplies_submenu()"
 });
 formatter.result({
-  "duration": 5019740500,
+  "duration": 4790429591,
   "status": "passed"
 });
 formatter.match({
   "location": "PartySuppliesSteps.displayed_all_party_supplies()"
 });
 formatter.result({
-  "duration": 83700,
+  "duration": 84162,
   "status": "passed"
 });
 formatter.after({
-  "duration": 748453800,
+  "duration": 156631361,
   "status": "passed"
 });
 formatter.uri("PollyEtsyLogin.feature");
@@ -259,11 +271,19 @@ formatter.feature({
     {
       "line": 1,
       "name": "@regression"
+    },
+    {
+      "line": 1,
+      "name": "@polly"
+    },
+    {
+      "line": 1,
+      "name": "@test"
     }
   ]
 });
 formatter.before({
-  "duration": 5123276800,
+  "duration": 1239446344,
   "status": "passed"
 });
 formatter.scenario({
@@ -308,36 +328,36 @@ formatter.match({
   "location": "EtsyLoginSteps.user_browse_to_etsy_web_application()"
 });
 formatter.result({
-  "duration": 10426962700,
+  "duration": 2861746158,
   "status": "passed"
 });
 formatter.match({
   "location": "EtsyLoginSteps.user_clicks_on_sign_in_button_on_the_upper_right_side()"
 });
 formatter.result({
-  "duration": 2135646200,
+  "duration": 2123401313,
   "status": "passed"
 });
 formatter.match({
   "location": "EtsyLoginSteps.user_enters_correct_email_address_on_the_email_tab()"
 });
 formatter.result({
-  "duration": 2280022200,
+  "duration": 2200370892,
   "status": "passed"
 });
 formatter.match({
   "location": "EtsyLoginSteps.user_enters_correct_password_on_password_tab()"
 });
 formatter.result({
-  "duration": 192390600,
+  "duration": 216504812,
   "status": "passed"
 });
 formatter.match({
   "location": "EtsyLoginSteps.user_clicks_on_Sign_In()"
 });
 formatter.result({
-  "duration": 1146457500,
-  "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cspan id\u003d\"catnav-primary-link-10855\" class\u003d\"text-gray-darker\" role\u003d\"menuitem\" aria-haspopup\u003d\"true\" tabindex\u003d\"0\"\u003e...\u003c/span\u003e is not clickable at point (171, 84). Other element would receive the click: \u003cdiv class\u003d\"overlay-region\" data-toolkit-overlay\u003d\"\" id\u003d\"join-neu-overlay\" role\u003d\"dialog\" aria-labelledby\u003d\"join-neu-overlay-title\" aria-hidden\u003d\"false\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d80.0.3987.163)\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027DESKTOP-3P56TJA\u0027, ip: \u0027192.168.0.11\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\rlina\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 3c7a64243f94707a1470ab20c4ba3717\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat etsy.PageActions.EtsyHomePageAction.submitForm(EtsyHomePageAction.java:52)\r\n\tat etsy.stepdef.EtsyLoginSteps.user_clicks_on_Sign_In(EtsyLoginSteps.java:35)\r\n\tat ✽.Then user clicks on ‘Sign In’(PollyEtsyLogin.feature:10)\r\n",
+  "duration": 1129867529,
+  "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cspan id\u003d\"catnav-primary-link-10855\" class\u003d\"text-gray-darker\" role\u003d\"menuitem\" aria-haspopup\u003d\"true\" tabindex\u003d\"0\"\u003e...\u003c/span\u003e is not clickable at point (123, 84). Other element would receive the click: \u003cdiv class\u003d\"overlay-region\" data-toolkit-overlay\u003d\"\" id\u003d\"join-neu-overlay\" role\u003d\"dialog\" aria-labelledby\u003d\"join-neu-overlay-title\" aria-hidden\u003d\"false\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d80.0.3987.163)\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027pollys-MacBook-Air.local\u0027, ip: \u0027fe80:0:0:0:8a0:85a9:7aae:717e%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/ky/g6blgfh55b9...}, goog:chromeOptions: {debuggerAddress: localhost:50073}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 33acfc66e7ecccce81eaa896d6abb4a8\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\n\tat etsy.PageActions.EtsyHomePageAction.submitForm(EtsyHomePageAction.java:52)\n\tat etsy.stepdef.EtsyLoginSteps.user_clicks_on_Sign_In(EtsyLoginSteps.java:35)\n\tat ✽.Then user clicks on ‘Sign In’(PollyEtsyLogin.feature:10)\n",
   "status": "failed"
 });
 formatter.match({
@@ -347,7 +367,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 859796700,
+  "duration": 129369658,
   "status": "passed"
 });
 formatter.uri("PollyJewelryandAccessories.feature");
@@ -365,11 +385,15 @@ formatter.feature({
     {
       "line": 1,
       "name": "@regression"
+    },
+    {
+      "line": 1,
+      "name": "@polly"
     }
   ]
 });
 formatter.before({
-  "duration": 5036306100,
+  "duration": 1260204114,
   "status": "passed"
 });
 formatter.scenario({
@@ -409,39 +433,39 @@ formatter.match({
   "location": "EtsyLoginSteps.user_browse_to_etsy_web_application()"
 });
 formatter.result({
-  "duration": 8527521000,
+  "duration": 3177720715,
   "status": "passed"
 });
 formatter.match({
   "location": "EtsyJewlryandAccessories.user_lands_on_etsy_homepage()"
 });
 formatter.result({
-  "duration": 1640541400,
+  "duration": 1816914041,
   "status": "passed"
 });
 formatter.match({
   "location": "EtsyJewlryandAccessories.user_sees_jewelry_accessories_button_on_the_upper_left_hand_side()"
 });
 formatter.result({
-  "duration": 2522781100,
+  "duration": 1377341927,
   "status": "passed"
 });
 formatter.match({
   "location": "EtsyJewlryandAccessories.user_clicks_on_jewelry_accessories_button()"
 });
 formatter.result({
-  "duration": 5676119600,
+  "duration": 5304078263,
   "status": "passed"
 });
 formatter.match({
   "location": "EtsyJewlryandAccessories.jewelry_accessories_page_appears()"
 });
 formatter.result({
-  "duration": 265100,
+  "duration": 81564,
   "status": "passed"
 });
 formatter.after({
-  "duration": 786853500,
+  "duration": 165537831,
   "status": "passed"
 });
 formatter.uri("PollyNavigatetoCart.feature");
@@ -454,16 +478,20 @@ formatter.feature({
   "tags": [
     {
       "line": 1,
-      "name": "@EtsyProject"
+      "name": "@Etsy"
     },
     {
       "line": 1,
       "name": "@regression"
+    },
+    {
+      "line": 1,
+      "name": "@polly"
     }
   ]
 });
 formatter.before({
-  "duration": 5048279400,
+  "duration": 1229638022,
   "status": "passed"
 });
 formatter.scenario({
@@ -503,29 +531,29 @@ formatter.match({
   "location": "EtsyLoginSteps.user_browse_to_etsy_web_application()"
 });
 formatter.result({
-  "duration": 8068343700,
+  "duration": 2580091631,
   "status": "passed"
 });
 formatter.match({
   "location": "EtsyJewlryandAccessories.user_lands_on_etsy_homepage()"
 });
 formatter.result({
-  "duration": 1576116100,
+  "duration": 1581119900,
   "status": "passed"
 });
 formatter.match({
   "location": "NavigatetoCart.user_sees_cart_button_on_the_upper_right_hand_side()"
 });
 formatter.result({
-  "duration": 1757482400,
+  "duration": 1721239125,
   "status": "passed"
 });
 formatter.match({
   "location": "NavigatetoCart.user_clicks_on_cart_button()"
 });
 formatter.result({
-  "duration": 22078106900,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[@class\u003d\u0027cart\u0027]\"}\n  (Session info: chrome\u003d80.0.3987.163)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027DESKTOP-3P56TJA\u0027, ip: \u0027192.168.0.11\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\rlina\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a0ed49740cc92ee7d445b0e517bc7a8c\n*** Element info: {Using\u003dxpath, value\u003d//li[@class\u003d\u0027cart\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat etsy.PageActions.NavigatetoCartAction.NavigatetoCart(NavigatetoCartAction.java:35)\r\n\tat etsy.stepdef.NavigatetoCart.user_clicks_on_cart_button(NavigatetoCart.java:20)\r\n\tat ✽.Then User clicks on cart button(PollyNavigatetoCart.feature:9)\r\n",
+  "duration": 22037792464,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[@class\u003d\u0027cart\u0027]\"}\n  (Session info: chrome\u003d80.0.3987.163)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027pollys-MacBook-Air.local\u0027, ip: \u0027fe80:0:0:0:8a0:85a9:7aae:717e%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/ky/g6blgfh55b9...}, goog:chromeOptions: {debuggerAddress: localhost:50208}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 8f2f9328803bfe09a0c32d1e0664e3ad\n*** Element info: {Using\u003dxpath, value\u003d//li[@class\u003d\u0027cart\u0027]}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\n\tat etsy.PageActions.NavigatetoCartAction.NavigatetoCart(NavigatetoCartAction.java:35)\n\tat etsy.stepdef.NavigatetoCart.user_clicks_on_cart_button(NavigatetoCart.java:20)\n\tat ✽.Then User clicks on cart button(PollyNavigatetoCart.feature:9)\n",
   "status": "failed"
 });
 formatter.match({
@@ -535,7 +563,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 785839700,
+  "duration": 150848965,
   "status": "passed"
 });
 });

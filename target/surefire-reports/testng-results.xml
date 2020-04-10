@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="2" total="6" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="161861" started-at="2020-04-10T02:42:14Z" finished-at="2020-04-10T02:44:55Z">
+  <suite name="Suite" duration-ms="89971" started-at="2020-04-10T17:36:44Z" finished-at="2020-04-10T17:38:14Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:etsy.runner.RunnerClass@3a03464]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:etsy.runner.RunnerClass@6b143ee9]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="161861" started-at="2020-04-10T02:42:14Z" finished-at="2020-04-10T02:44:55Z">
+    <test name="Test" duration-ms="89971" started-at="2020-04-10T17:36:44Z" finished-at="2020-04-10T17:38:14Z">
       <class name="etsy.runner.RunnerClass">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:etsy.runner.RunnerClass@3a03464]" name="setUpClass" is-config="true" duration-ms="199" started-at="2020-04-09T22:42:14Z" finished-at="2020-04-09T22:42:14Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:etsy.runner.RunnerClass@6b143ee9]" name="setUpClass" is-config="true" duration-ms="340" started-at="2020-04-10T13:36:45Z" finished-at="2020-04-10T13:36:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:etsy.runner.RunnerClass@3a03464]" name="feature" duration-ms="27759" started-at="2020-04-09T22:42:14Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-09T22:42:42Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:etsy.runner.RunnerClass@6b143ee9]" name="feature" duration-ms="14213" started-at="2020-04-10T13:36:45Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-10T13:36:59Z">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:etsy.runner.RunnerClass@3a03464]" name="feature" duration-ms="25149" started-at="2020-04-09T22:42:42Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-09T22:43:07Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:etsy.runner.RunnerClass@6b143ee9]" name="feature" duration-ms="11229" started-at="2020-04-10T13:36:59Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-10T13:37:10Z">
           <params>
             <param index="0">
               <value>
@@ -36,7 +36,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:etsy.runner.RunnerClass@3a03464]" name="feature" duration-ms="22475" started-at="2020-04-09T22:43:07Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-09T22:43:29Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:etsy.runner.RunnerClass@6b143ee9]" name="feature" duration-ms="10942" started-at="2020-04-10T13:37:10Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-10T13:37:21Z">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:etsy.runner.RunnerClass@3a03464]" name="feature" duration-ms="22202" started-at="2020-04-09T22:43:29Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-09T22:43:51Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:etsy.runner.RunnerClass@6b143ee9]" name="feature" duration-ms="9933" started-at="2020-04-10T13:37:21Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-10T13:37:31Z">
           <params>
             <param index="0">
               <value>
@@ -57,22 +57,22 @@
           </params>
           <exception class="cucumber.runtime.CucumberException">
             <message>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span id="catnav-primary-link-10855" class="text-gray-darker" role="menuitem" aria-haspopup="true" tabindex="0">...</span> is not clickable at point (171, 84). Other element would receive the click: <div class="overlay-region" data-toolkit-overlay="" id="join-neu-overlay" role="dialog" aria-labelledby="join-neu-overlay-title" aria-hidden="false">...</div>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span id="catnav-primary-link-10855" class="text-gray-darker" role="menuitem" aria-haspopup="true" tabindex="0">...</span> is not clickable at point (123, 84). Other element would receive the click: <div class="overlay-region" data-toolkit-overlay="" id="join-neu-overlay" role="dialog" aria-labelledby="join-neu-overlay-title" aria-hidden="false">...</div>
   (Session info: chrome=80.0.3987.163)
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-3P56TJA', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'pollys-MacBook-Air.local', ip: 'fe80:0:0:0:8a0:85a9:7aae:717e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\rlina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 3c7a64243f94707a1470ab20c4ba3717]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/ky/g6blgfh55b9...}, goog:chromeOptions: {debuggerAddress: localhost:50073}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 33acfc66e7ecccce81eaa896d6abb4a8]]>
             </message>
             <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span id="catnav-primary-link-10855" class="text-gray-darker" role="menuitem" aria-haspopup="true" tabindex="0">...</span> is not clickable at point (171, 84). Other element would receive the click: <div class="overlay-region" data-toolkit-overlay="" id="join-neu-overlay" role="dialog" aria-labelledby="join-neu-overlay-title" aria-hidden="false">...</div>
+              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span id="catnav-primary-link-10855" class="text-gray-darker" role="menuitem" aria-haspopup="true" tabindex="0">...</span> is not clickable at point (123, 84). Other element would receive the click: <div class="overlay-region" data-toolkit-overlay="" id="join-neu-overlay" role="dialog" aria-labelledby="join-neu-overlay-title" aria-hidden="false">...</div>
   (Session info: chrome=80.0.3987.163)
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-3P56TJA', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'pollys-MacBook-Air.local', ip: 'fe80:0:0:0:8a0:85a9:7aae:717e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\rlina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 3c7a64243f94707a1470ab20c4ba3717
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/ky/g6blgfh55b9...}, goog:chromeOptions: {debuggerAddress: localhost:50073}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 33acfc66e7ecccce81eaa896d6abb4a8
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -103,13 +103,13 @@ Session ID: 3c7a64243f94707a1470ab20c4ba3717
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
-Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span id="catnav-primary-link-10855" class="text-gray-darker" role="menuitem" aria-haspopup="true" tabindex="0">...</span> is not clickable at point (171, 84). Other element would receive the click: <div class="overlay-region" data-toolkit-overlay="" id="join-neu-overlay" role="dialog" aria-labelledby="join-neu-overlay-title" aria-hidden="false">...</div>
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span id="catnav-primary-link-10855" class="text-gray-darker" role="menuitem" aria-haspopup="true" tabindex="0">...</span> is not clickable at point (123, 84). Other element would receive the click: <div class="overlay-region" data-toolkit-overlay="" id="join-neu-overlay" role="dialog" aria-labelledby="join-neu-overlay-title" aria-hidden="false">...</div>
   (Session info: chrome=80.0.3987.163)
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-3P56TJA', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'pollys-MacBook-Air.local', ip: 'fe80:0:0:0:8a0:85a9:7aae:717e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\rlina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 3c7a64243f94707a1470ab20c4ba3717
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/ky/g6blgfh55b9...}, goog:chromeOptions: {debuggerAddress: localhost:50073}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 33acfc66e7ecccce81eaa896d6abb4a8
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -137,7 +137,7 @@ Session ID: 3c7a64243f94707a1470ab20c4ba3717
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:etsy.runner.RunnerClass@3a03464]" name="feature" duration-ms="24204" started-at="2020-04-09T22:43:52Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-09T22:44:16Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:etsy.runner.RunnerClass@6b143ee9]" name="feature" duration-ms="13118" started-at="2020-04-10T13:37:31Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-10T13:37:44Z">
           <params>
             <param index="0">
               <value>
@@ -148,7 +148,7 @@ Session ID: 3c7a64243f94707a1470ab20c4ba3717
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:etsy.runner.RunnerClass@3a03464]" name="feature" duration-ms="39328" started-at="2020-04-09T22:44:16Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-09T22:44:55Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:etsy.runner.RunnerClass@6b143ee9]" name="feature" duration-ms="29330" started-at="2020-04-10T13:37:44Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-10T13:38:14Z">
           <params>
             <param index="0">
               <value>
@@ -162,10 +162,10 @@ Session ID: 3c7a64243f94707a1470ab20c4ba3717
   (Session info: chrome=80.0.3987.163)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-3P56TJA', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'pollys-MacBook-Air.local', ip: 'fe80:0:0:0:8a0:85a9:7aae:717e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\rlina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a0ed49740cc92ee7d445b0e517bc7a8c
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/ky/g6blgfh55b9...}, goog:chromeOptions: {debuggerAddress: localhost:50208}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8f2f9328803bfe09a0c32d1e0664e3ad
 *** Element info: {Using=xpath, value=//li[@class='cart']}]]>
             </message>
             <full-stacktrace>
@@ -173,10 +173,10 @@ Session ID: a0ed49740cc92ee7d445b0e517bc7a8c
   (Session info: chrome=80.0.3987.163)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-3P56TJA', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'pollys-MacBook-Air.local', ip: 'fe80:0:0:0:8a0:85a9:7aae:717e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\rlina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a0ed49740cc92ee7d445b0e517bc7a8c
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/ky/g6blgfh55b9...}, goog:chromeOptions: {debuggerAddress: localhost:50208}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8f2f9328803bfe09a0c32d1e0664e3ad
 *** Element info: {Using=xpath, value=//li[@class='cart']}
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
@@ -212,10 +212,10 @@ Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable t
   (Session info: chrome=80.0.3987.163)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-3P56TJA', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'pollys-MacBook-Air.local', ip: 'fe80:0:0:0:8a0:85a9:7aae:717e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\rlina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a0ed49740cc92ee7d445b0e517bc7a8c
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/ky/g6blgfh55b9...}, goog:chromeOptions: {debuggerAddress: localhost:50208}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8f2f9328803bfe09a0c32d1e0664e3ad
 *** Element info: {Using=xpath, value=//li[@class='cart']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -243,11 +243,11 @@ Session ID: a0ed49740cc92ee7d445b0e517bc7a8c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:etsy.runner.RunnerClass@3a03464]" name="writeExtentReport" is-config="true" duration-ms="20" started-at="2020-04-09T22:44:55Z" finished-at="2020-04-09T22:44:55Z">
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:etsy.runner.RunnerClass@6b143ee9]" name="writeExtentReport" is-config="true" duration-ms="48" started-at="2020-04-10T13:38:14Z" finished-at="2020-04-10T13:38:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeExtentReport -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:etsy.runner.RunnerClass@3a03464]" name="tearDownClass" is-config="true" duration-ms="439" started-at="2020-04-09T22:44:55Z" finished-at="2020-04-09T22:44:55Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:etsy.runner.RunnerClass@6b143ee9]" name="tearDownClass" is-config="true" duration-ms="612" started-at="2020-04-10T13:38:14Z" finished-at="2020-04-10T13:38:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

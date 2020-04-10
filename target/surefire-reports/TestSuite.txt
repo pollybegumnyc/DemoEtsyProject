@@ -1,44 +1,44 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 162.427 s <<< FAILURE! - in TestSuite
-feature(etsy.runner.RunnerClass)  Time elapsed: 22.213 s  <<< FAILURE!
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 90.631 s <<< FAILURE! - in TestSuite
+feature(etsy.runner.RunnerClass)  Time elapsed: 9.957 s  <<< FAILURE!
 cucumber.runtime.CucumberException: 
-org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span id="catnav-primary-link-10855" class="text-gray-darker" role="menuitem" aria-haspopup="true" tabindex="0">...</span> is not clickable at point (171, 84). Other element would receive the click: <div class="overlay-region" data-toolkit-overlay="" id="join-neu-overlay" role="dialog" aria-labelledby="join-neu-overlay-title" aria-hidden="false">...</div>
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span id="catnav-primary-link-10855" class="text-gray-darker" role="menuitem" aria-haspopup="true" tabindex="0">...</span> is not clickable at point (123, 84). Other element would receive the click: <div class="overlay-region" data-toolkit-overlay="" id="join-neu-overlay" role="dialog" aria-labelledby="join-neu-overlay-title" aria-hidden="false">...</div>
   (Session info: chrome=80.0.3987.163)
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-3P56TJA', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'pollys-MacBook-Air.local', ip: 'fe80:0:0:0:8a0:85a9:7aae:717e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\rlina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 3c7a64243f94707a1470ab20c4ba3717
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/ky/g6blgfh55b9...}, goog:chromeOptions: {debuggerAddress: localhost:50073}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 33acfc66e7ecccce81eaa896d6abb4a8
 Caused by: org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element <span id="catnav-primary-link-10855" class="text-gray-darker" role="menuitem" aria-haspopup="true" tabindex="0">...</span> is not clickable at point (171, 84). Other element would receive the click: <div class="overlay-region" data-toolkit-overlay="" id="join-neu-overlay" role="dialog" aria-labelledby="join-neu-overlay-title" aria-hidden="false">...</div>
+element click intercepted: Element <span id="catnav-primary-link-10855" class="text-gray-darker" role="menuitem" aria-haspopup="true" tabindex="0">...</span> is not clickable at point (123, 84). Other element would receive the click: <div class="overlay-region" data-toolkit-overlay="" id="join-neu-overlay" role="dialog" aria-labelledby="join-neu-overlay-title" aria-hidden="false">...</div>
   (Session info: chrome=80.0.3987.163)
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-3P56TJA', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'pollys-MacBook-Air.local', ip: 'fe80:0:0:0:8a0:85a9:7aae:717e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\rlina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 3c7a64243f94707a1470ab20c4ba3717
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/ky/g6blgfh55b9...}, goog:chromeOptions: {debuggerAddress: localhost:50073}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 33acfc66e7ecccce81eaa896d6abb4a8
 
-feature(etsy.runner.RunnerClass)  Time elapsed: 39.327 s  <<< FAILURE!
+feature(etsy.runner.RunnerClass)  Time elapsed: 29.333 s  <<< FAILURE!
 cucumber.runtime.CucumberException: 
 org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='cart']"}
   (Session info: chrome=80.0.3987.163)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-3P56TJA', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'pollys-MacBook-Air.local', ip: 'fe80:0:0:0:8a0:85a9:7aae:717e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\rlina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a0ed49740cc92ee7d445b0e517bc7a8c
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/ky/g6blgfh55b9...}, goog:chromeOptions: {debuggerAddress: localhost:50208}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8f2f9328803bfe09a0c32d1e0664e3ad
 *** Element info: {Using=xpath, value=//li[@class='cart']}
 Caused by: org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='cart']"}
   (Session info: chrome=80.0.3987.163)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-3P56TJA', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'pollys-MacBook-Air.local', ip: 'fe80:0:0:0:8a0:85a9:7aae:717e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\rlina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a0ed49740cc92ee7d445b0e517bc7a8c
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/ky/g6blgfh55b9...}, goog:chromeOptions: {debuggerAddress: localhost:50208}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8f2f9328803bfe09a0c32d1e0664e3ad
 *** Element info: {Using=xpath, value=//li[@class='cart']}
 
