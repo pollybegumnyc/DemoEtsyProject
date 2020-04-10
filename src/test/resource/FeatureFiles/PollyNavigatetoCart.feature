@@ -1,4 +1,4 @@
-@EtsyProject @regression
+@Etsy @regression @polly
 Feature: As a user I want to access cart 
 
 Scenario: Navigate to cart 

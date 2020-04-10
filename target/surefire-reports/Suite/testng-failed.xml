@@ -6,7 +6,7 @@
       <class name="etsy.runner.RunnerClass">
         <methods>
           <include name="setUpClass"/>
-          <include name="feature" invocation-numbers="0"/>
+          <include name="feature" invocation-numbers="3 5"/>
           <include name="writeExtentReport"/>
           <include name="tearDownClass"/>
         </methods>

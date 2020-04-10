@@ -1,4 +1,4 @@
-@Etsy @regression
+@Etsy @regression @polly
 Feature: As a user I want to see jewelry and accessories.
 
 Scenario: Click on jewelry and accessories

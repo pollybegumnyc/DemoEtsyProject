@@ -1,4 +1,4 @@
-@Etsy @regression
+@Etsy @regression @lina
 Feature: As a user i want to click on wedding and party then select party supplies 
 
 Scenario: Mouse hover on wedding and party and then select party supplies 

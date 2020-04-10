@@ -1,4 +1,4 @@
-@Etsy @regression
+@Etsy @regression @lina
 Feature: As a user I want to see clothing and shoes 
 
 Scenario: See list of clothing and shoes items 

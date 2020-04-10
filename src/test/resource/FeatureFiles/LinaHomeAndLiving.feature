@@ -1,4 +1,4 @@
-@Etsy  @regression
+@Etsy @regression @lina
 Feature: As a user I want to see home and living
 
 Scenario: See list of home and living items

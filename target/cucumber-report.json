@@ -6,243 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 5660728000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "BeforeActions.beforeAction(Scenario)"
-            }
-          }
-        ],
-        "line": 4,
-        "name": "Login with correct username and password",
-        "description": "",
-        "id": "as-a-user-i-want-to-login-to-etsy.com-using-my-login-credentials;login-with-correct-username-and-password",
-        "after": [
-          {
-            "result": {
-              "duration": 723053800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "AfterActions.afterAction()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 5939898300,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User browse to etsy web application",
-            "match": {
-              "location": "EtsyLoginSteps.user_browse_to_etsy_web_application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2101319900,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User clicks on ‘sign in’ button on the upper right side",
-            "match": {
-              "location": "EtsyLoginSteps.user_clicks_on_sign_in_button_on_the_upper_right_side()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2084242700,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User enters correct email address on the email tab",
-            "match": {
-              "location": "EtsyLoginSteps.user_enters_correct_email_address_on_the_email_tab()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 76534900,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User enters correct password on password tab",
-            "match": {
-              "location": "EtsyLoginSteps.user_enters_correct_password_on_password_tab()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1116001500,
-              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cspan id\u003d\"catnav-primary-link-10855\" class\u003d\"text-gray-darker\" role\u003d\"menuitem\" aria-haspopup\u003d\"true\" tabindex\u003d\"0\"\u003e...\u003c/span\u003e is not clickable at point (171, 84). Other element would receive the click: \u003cdiv class\u003d\"overlay-region\" data-toolkit-overlay\u003d\"\" id\u003d\"join-neu-overlay\" role\u003d\"dialog\" aria-labelledby\u003d\"join-neu-overlay-title\" aria-hidden\u003d\"false\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d80.0.3987.149)\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027DESKTOP-3P56TJA\u0027, ip: \u0027192.168.0.11\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\rlina\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64224}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 5b80bec24a0b3b6002235b221fdd5570\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat etsy.PageActions.EtsyHomePageAction.submitForm(EtsyHomePageAction.java:52)\r\n\tat etsy.stepdef.EtsyLoginSteps.user_clicks_on_Sign_In(EtsyLoginSteps.java:35)\r\n\tat ✽.Then user clicks on ‘Sign In’(EtsyLogin.feature:10)\r\n",
-              "status": "failed"
-            },
-            "line": 10,
-            "name": "user clicks on ‘Sign In’",
-            "match": {
-              "location": "EtsyLoginSteps.user_clicks_on_Sign_In()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 11,
-            "name": "user sees account homepage",
-            "match": {
-              "location": "EtsyLoginSteps.user_sees_account_homepage()"
-            },
-            "keyword": "And "
-          }
-        ]
-      }
-    ],
-    "name": "As a user I want to login to etsy.com using my login credentials",
-    "description": "",
-    "id": "as-a-user-i-want-to-login-to-etsy.com-using-my-login-credentials",
-    "keyword": "Feature",
-    "uri": "EtsyLogin.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@Etsy"
-      },
-      {
-        "line": 1,
-        "name": "@regression"
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 5056314700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "BeforeActions.beforeAction(Scenario)"
-            }
-          }
-        ],
-        "line": 4,
-        "name": "Click on jewelry and accessories",
-        "description": "",
-        "id": "as-a-user-i-want-to-see-jewelry-and-accessories.;click-on-jewelry-and-accessories",
-        "after": [
-          {
-            "result": {
-              "duration": 779549800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "AfterActions.afterAction()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 6986865500,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User browse to etsy web application",
-            "match": {
-              "location": "EtsyLoginSteps.user_browse_to_etsy_web_application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2037867400,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User lands on etsy homepage",
-            "match": {
-              "location": "EtsyJewlryandAccessories.user_lands_on_etsy_homepage()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1923304200,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User sees jewelry \u0026 accessories button on the upper left hand side",
-            "match": {
-              "location": "EtsyJewlryandAccessories.user_sees_jewelry_accessories_button_on_the_upper_left_hand_side()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4811116500,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User clicks on  jewelry \u0026 accessories button",
-            "match": {
-              "location": "EtsyJewlryandAccessories.user_clicks_on_jewelry_accessories_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 146000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "Jewelry \u0026 accessories page appears.",
-            "match": {
-              "location": "EtsyJewlryandAccessories.jewelry_accessories_page_appears()"
-            },
-            "keyword": "And "
-          }
-        ]
-      }
-    ],
-    "name": "As a user I want to see jewelry and accessories.",
-    "description": "",
-    "id": "as-a-user-i-want-to-see-jewelry-and-accessories.",
-    "keyword": "Feature",
-    "uri": "JewelryandAccessories.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@Etsy"
-      },
-      {
-        "line": 1,
-        "name": "@regression"
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 5052313600,
+              "duration": 6177007300,
               "status": "passed"
             },
             "match": {
@@ -257,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 776775400,
+              "duration": 936642300,
               "status": "passed"
             },
             "match": {
@@ -270,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7218972400,
+              "duration": 9199922400,
               "status": "passed"
             },
             "line": 6,
@@ -282,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 3808436500,
+              "duration": 3878010700,
               "status": "passed"
             },
             "line": 7,
@@ -294,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 4938291700,
+              "duration": 7351343100,
               "status": "passed"
             },
             "line": 8,
@@ -306,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 87300,
+              "duration": 154900,
               "status": "passed"
             },
             "line": 9,
@@ -342,7 +106,7 @@
         "before": [
           {
             "result": {
-              "duration": 5031655300,
+              "duration": 5189724200,
               "status": "passed"
             },
             "match": {
@@ -357,7 +121,7 @@
         "after": [
           {
             "result": {
-              "duration": 764627600,
+              "duration": 751509600,
               "status": "passed"
             },
             "match": {
@@ -370,7 +134,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7321104500,
+              "duration": 8570563100,
               "status": "passed"
             },
             "line": 6,
@@ -382,7 +146,7 @@
           },
           {
             "result": {
-              "duration": 1829938400,
+              "duration": 4397044900,
               "status": "passed"
             },
             "line": 7,
@@ -394,7 +158,7 @@
           },
           {
             "result": {
-              "duration": 5796273900,
+              "duration": 6222065500,
               "status": "passed"
             },
             "line": 8,
@@ -406,7 +170,7 @@
           },
           {
             "result": {
-              "duration": 68000,
+              "duration": 180500,
               "status": "passed"
             },
             "line": 9,
@@ -442,7 +206,7 @@
         "before": [
           {
             "result": {
-              "duration": 5032049100,
+              "duration": 5080185500,
               "status": "passed"
             },
             "match": {
@@ -457,7 +221,7 @@
         "after": [
           {
             "result": {
-              "duration": 812146000,
+              "duration": 748453800,
               "status": "passed"
             },
             "match": {
@@ -470,7 +234,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7959162000,
+              "duration": 8806241400,
               "status": "passed"
             },
             "line": 6,
@@ -482,7 +246,7 @@
           },
           {
             "result": {
-              "duration": 1532429000,
+              "duration": 2805492200,
               "status": "passed"
             },
             "line": 7,
@@ -494,7 +258,7 @@
           },
           {
             "result": {
-              "duration": 5443951900,
+              "duration": 5019740500,
               "status": "passed"
             },
             "line": 8,
@@ -506,7 +270,7 @@
           },
           {
             "result": {
-              "duration": 126000,
+              "duration": 83700,
               "status": "passed"
             },
             "line": 9,
@@ -542,7 +306,243 @@
         "before": [
           {
             "result": {
-              "duration": 5089425600,
+              "duration": 5123276800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeAction(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with correct username and password",
+        "description": "",
+        "id": "as-a-user-i-want-to-login-to-etsy.com-using-my-login-credentials;login-with-correct-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 859796700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10426962700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User browse to etsy web application",
+            "match": {
+              "location": "EtsyLoginSteps.user_browse_to_etsy_web_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2135646200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on ‘sign in’ button on the upper right side",
+            "match": {
+              "location": "EtsyLoginSteps.user_clicks_on_sign_in_button_on_the_upper_right_side()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2280022200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters correct email address on the email tab",
+            "match": {
+              "location": "EtsyLoginSteps.user_enters_correct_email_address_on_the_email_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 192390600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters correct password on password tab",
+            "match": {
+              "location": "EtsyLoginSteps.user_enters_correct_password_on_password_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1146457500,
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cspan id\u003d\"catnav-primary-link-10855\" class\u003d\"text-gray-darker\" role\u003d\"menuitem\" aria-haspopup\u003d\"true\" tabindex\u003d\"0\"\u003e...\u003c/span\u003e is not clickable at point (171, 84). Other element would receive the click: \u003cdiv class\u003d\"overlay-region\" data-toolkit-overlay\u003d\"\" id\u003d\"join-neu-overlay\" role\u003d\"dialog\" aria-labelledby\u003d\"join-neu-overlay-title\" aria-hidden\u003d\"false\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d80.0.3987.163)\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027DESKTOP-3P56TJA\u0027, ip: \u0027192.168.0.11\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\rlina\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 3c7a64243f94707a1470ab20c4ba3717\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat etsy.PageActions.EtsyHomePageAction.submitForm(EtsyHomePageAction.java:52)\r\n\tat etsy.stepdef.EtsyLoginSteps.user_clicks_on_Sign_In(EtsyLoginSteps.java:35)\r\n\tat ✽.Then user clicks on ‘Sign In’(PollyEtsyLogin.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "user clicks on ‘Sign In’",
+            "match": {
+              "location": "EtsyLoginSteps.user_clicks_on_Sign_In()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user sees account homepage",
+            "match": {
+              "location": "EtsyLoginSteps.user_sees_account_homepage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "As a user I want to login to etsy.com using my login credentials",
+    "description": "",
+    "id": "as-a-user-i-want-to-login-to-etsy.com-using-my-login-credentials",
+    "keyword": "Feature",
+    "uri": "PollyEtsyLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Etsy"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5036306100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeAction(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Click on jewelry and accessories",
+        "description": "",
+        "id": "as-a-user-i-want-to-see-jewelry-and-accessories.;click-on-jewelry-and-accessories",
+        "after": [
+          {
+            "result": {
+              "duration": 786853500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8527521000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User browse to etsy web application",
+            "match": {
+              "location": "EtsyLoginSteps.user_browse_to_etsy_web_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1640541400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User lands on etsy homepage",
+            "match": {
+              "location": "EtsyJewlryandAccessories.user_lands_on_etsy_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2522781100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User sees jewelry \u0026 accessories button on the upper left hand side",
+            "match": {
+              "location": "EtsyJewlryandAccessories.user_sees_jewelry_accessories_button_on_the_upper_left_hand_side()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5676119600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on  jewelry \u0026 accessories button",
+            "match": {
+              "location": "EtsyJewlryandAccessories.user_clicks_on_jewelry_accessories_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 265100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Jewelry \u0026 accessories page appears.",
+            "match": {
+              "location": "EtsyJewlryandAccessories.jewelry_accessories_page_appears()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "As a user I want to see jewelry and accessories.",
+    "description": "",
+    "id": "as-a-user-i-want-to-see-jewelry-and-accessories.",
+    "keyword": "Feature",
+    "uri": "PollyJewelryandAccessories.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Etsy"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5048279400,
               "status": "passed"
             },
             "match": {
@@ -557,7 +557,7 @@
         "after": [
           {
             "result": {
-              "duration": 715910200,
+              "duration": 785839700,
               "status": "passed"
             },
             "match": {
@@ -570,7 +570,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7506504300,
+              "duration": 8068343700,
               "status": "passed"
             },
             "line": 6,
@@ -582,7 +582,7 @@
           },
           {
             "result": {
-              "duration": 2282569100,
+              "duration": 1576116100,
               "status": "passed"
             },
             "line": 7,
@@ -594,7 +594,7 @@
           },
           {
             "result": {
-              "duration": 1537620700,
+              "duration": 1757482400,
               "status": "passed"
             },
             "line": 8,
@@ -606,8 +606,8 @@
           },
           {
             "result": {
-              "duration": 22021372300,
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[@class\u003d\u0027cart\u0027]\"}\n  (Session info: chrome\u003d80.0.3987.149)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027DESKTOP-3P56TJA\u0027, ip: \u0027192.168.0.11\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\rlina\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 272835d444d4b264cf1e0950c9143ff1\n*** Element info: {Using\u003dxpath, value\u003d//li[@class\u003d\u0027cart\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat etsy.PageActions.NavigatetoCartAction.NavigatetoCart(NavigatetoCartAction.java:35)\r\n\tat etsy.stepdef.NavigatetoCart.user_clicks_on_cart_button(NavigatetoCart.java:20)\r\n\tat ✽.Then User clicks on cart button(NavigatetoCart.feature:9)\r\n",
+              "duration": 22078106900,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[@class\u003d\u0027cart\u0027]\"}\n  (Session info: chrome\u003d80.0.3987.163)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027DESKTOP-3P56TJA\u0027, ip: \u0027192.168.0.11\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\rlina\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a0ed49740cc92ee7d445b0e517bc7a8c\n*** Element info: {Using\u003dxpath, value\u003d//li[@class\u003d\u0027cart\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat etsy.PageActions.NavigatetoCartAction.NavigatetoCart(NavigatetoCartAction.java:35)\r\n\tat etsy.stepdef.NavigatetoCart.user_clicks_on_cart_button(NavigatetoCart.java:20)\r\n\tat ✽.Then User clicks on cart button(PollyNavigatetoCart.feature:9)\r\n",
               "status": "failed"
             },
             "line": 9,
@@ -635,7 +635,7 @@
     "description": "",
     "id": "as-a-user-i-want-to-access-cart",
     "keyword": "Feature",
-    "uri": "NavigatetoCart.feature",
+    "uri": "PollyNavigatetoCart.feature",
     "tags": [
       {
         "line": 1,
