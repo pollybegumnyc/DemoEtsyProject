@@ -1,4 +1,4 @@
-@Etsy @regression @polly
+@Etsy @regression @polly @test
 Feature: As a user I want to login to etsy.com using my login credentials
 
 Scenario: Login with correct username and password
